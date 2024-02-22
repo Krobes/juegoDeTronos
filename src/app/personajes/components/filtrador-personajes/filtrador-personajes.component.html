@@ -1,0 +1,5 @@
+<div>
+    @for(boton of botones; track $index){
+        <button (click)="filtrarCasa(boton.casa)" type="button" class="btn {{boton.claseBoton}}">House {{boton.casa}}</button>    
+    }
+</div>

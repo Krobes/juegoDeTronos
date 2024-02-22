@@ -1,0 +1,11 @@
+img{
+    width:205px;
+    height: 250px;
+}
+
+p{
+    margin: 0;
+    padding: 1%;
+    font-size: 13px;
+    font-style: italic;
+}

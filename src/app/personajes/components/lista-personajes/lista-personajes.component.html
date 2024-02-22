@@ -1,0 +1,8 @@
+<div id="container">
+    @for(personaje of personajes; track personaje.id){
+    <div class="card" style="width: 13rem">
+      <app-personaje [personaje]="personaje"></app-personaje>
+    </div>
+    }
+  </div>
+  
